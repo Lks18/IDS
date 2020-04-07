@@ -1,1 +1,6 @@
 alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"Small hint"; flow:established,to_server; content:"GET"; http_method; content:"/1dkfJu.php?"; http_uri; classtype:unknown; sid:1; rev:1;)
+
+
+
+alert tcp any any -> 65.181.125.0/24 any (msg:"infected"; classtype:unknown; sid:1; rev:1;)
+

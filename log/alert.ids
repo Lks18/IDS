@@ -1,0 +1,147 @@
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:39.091955 172.16.2.96:49177 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:385 IpLen:20 DgmLen:52 DF
+******S* Seq: 0x74C20C81  Ack: 0x0  Win: 0x2000  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:39.091963 172.16.2.96:49178 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:386 IpLen:20 DgmLen:52 DF
+******S* Seq: 0x7A44310  Ack: 0x0  Win: 0x2000  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:39.483651 172.16.2.96:49177 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:387 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x74C20C82  Ack: 0xCE803AF1  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:39.483660 172.16.2.96:49178 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:388 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x7A44311  Ack: 0x419F194F  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:39.483813 172.16.2.96:49177 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:389 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x74C20C82  Ack: 0xCE803AF1  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:39.893378 172.16.2.96:49177 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:390 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x74C20DBB  Ack: 0xCE803C3B  Win: 0xF9A6  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:32:44.854642 172.16.2.96:49177 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:432 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x74C20DBB  Ack: 0xCE803C3C  Win: 0xF9A6  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:33:01.341584 172.16.2.96:49178 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:437 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x7A44311  Ack: 0x419F1950  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:33:03.612903 172.16.2.96:49177 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:504 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x74C20DBB  Ack: 0xCE803C3C  Win: 0xF9A6  TcpLen: 20
+
+[**] [1:1:1] infected [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:33:03.612975 172.16.2.96:49178 -> 65.181.125.20:80
+TCP TTL:128 TOS:0x0 ID:505 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0x7A44311  Ack: 0x419F1950  Win: 0xFAF0  TcpLen: 20
+
+[**] [139:1:1] (spp_sdf) SDF Combination Alert [**]
+[Classification: Senstive Data] [Priority: 2] 
+12/17-04:33:43.552214 65.181.112.240 -> 172.16.2.96
+PROTO:254 TTL:128 TOS:0x0 ID:609 IpLen:20 DgmLen:20 DF
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:34:09.262842 172.16.2.96:49197 -> 65.181.112.240:80
+TCP TTL:128 TOS:0x0 ID:48557 IpLen:20 DgmLen:928
+***A**** Seq: 0xB1F08C42  Ack: 0xC28CABE  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:34:25.573801 172.16.2.96:49200 -> 65.181.112.240:80
+TCP TTL:128 TOS:0x0 ID:48563 IpLen:20 DgmLen:928
+***A**** Seq: 0xFA80F33A  Ack: 0x14015C82  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [120:18:3] (http_inspect) PROTOCOL-OTHER HTTP server response before client request  [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:47:32.102107 158.69.99.213:80 -> 172.16.2.96:49177
+TCP TTL:128 TOS:0x0 ID:48807 IpLen:20 DgmLen:65
+***AP*** Seq: 0x5CE1F272  Ack: 0xD12A0E86  Win: 0xFAF0  TcpLen: 20
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:23.058014 172.16.2.96:49190 -> 131.247.120.45:80
+TCP TTL:128 TOS:0x0 ID:48940 IpLen:20 DgmLen:836
+***A**** Seq: 0xFD489D1A  Ack: 0x4FE462C9  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:23.062536 172.16.2.96:49191 -> 131.247.120.45:80
+TCP TTL:128 TOS:0x0 ID:48949 IpLen:20 DgmLen:837
+***A**** Seq: 0x1189FE4D  Ack: 0x763E604C  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:23.856802 172.16.2.96:49186 -> 131.247.120.45:80
+TCP TTL:128 TOS:0x0 ID:49002 IpLen:20 DgmLen:855
+***A**** Seq: 0xD8F736DB  Ack: 0x3F64C785  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:23.868502 172.16.2.96:49184 -> 131.247.120.45:80
+TCP TTL:128 TOS:0x0 ID:49004 IpLen:20 DgmLen:867
+***A**** Seq: 0x60191BBB  Ack: 0xDB93B740  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:24.107493 172.16.2.96:49201 -> 131.247.120.45:80
+TCP TTL:128 TOS:0x0 ID:49017 IpLen:20 DgmLen:860
+***A**** Seq: 0x7A653CF7  Ack: 0x6530152E  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:24.573196 172.16.2.96:49202 -> 172.217.29.238:80
+TCP TTL:128 TOS:0x0 ID:49205 IpLen:20 DgmLen:1509
+***A**** Seq: 0xEEF5ABA7  Ack: 0x53A34906  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [139:1:1] (spp_sdf) SDF Combination Alert [**]
+[Classification: Senstive Data] [Priority: 2] 
+12/17-04:48:25.320498 131.247.120.45 -> 172.16.2.96
+PROTO:254 TTL:128 TOS:0x0 ID:558 IpLen:20 DgmLen:20 DF
+
+[**] [119:19:2] (http_inspect) LONG HEADER [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+12/17-04:48:25.572497 172.16.2.96:49212 -> 104.16.27.235:80
+TCP TTL:128 TOS:0x0 ID:49474 IpLen:20 DgmLen:1178
+***A**** Seq: 0x1C592C19  Ack: 0xB715B066  Win: 0xFAF0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2009-4873]
+
+[**] [120:3:2] (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+12/17-04:48:25.353026 104.16.21.35:80 -> 172.16.2.96:49203
+TCP TTL:128 TOS:0x0 ID:58055 IpLen:20 DgmLen:9926
+***A**** Seq: 0x133014F1  Ack: 0x4ADD93B2  Win: 0xFAF0  TcpLen: 20
+
