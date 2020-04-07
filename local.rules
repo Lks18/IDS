@@ -1,0 +1,1 @@
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"Small hint"; flow:established,to_server; content:"GET"; http_method; content:"/1dkfJu.php?"; http_uri; classtype:unknown; sid:1; rev:1;)
